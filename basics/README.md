@@ -1,6 +1,2 @@
-# describing what each script is doing
-
-#Write a script that prints the absolute path name of the current working directory.
+ describing what each script is doing
 file: 0-current_working_directory
-
-
