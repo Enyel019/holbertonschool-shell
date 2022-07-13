@@ -1,0 +1,14 @@
+#!/usr/bin/env bash
+#This is  Bash script that displays:
+
+#The content of the current directory
+#In a list format
+#Where only the part of the name after the first dash is displayed (refer to the example)
+
+OUTPUT_LS=$(ls -1)
+
+for var in $OUTPUT_LS
+do
+	echo "${var#*-}"
+
+done
